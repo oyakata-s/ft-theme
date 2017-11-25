@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ft-theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-10 06:40+0000\n"
+"PO-Revision-Date: 2017-11-10 06:40+0000\n"
+"Last-Translator: Tomokazu Fujishima <cl.tomokazu.fujisima@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ja_JP\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/footer.php:18
+msgid "Advertisement"
+msgstr "広告"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:12
+msgid "Pick Up!"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:38
+msgid "No Pickup post."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:45
+msgid "Entries"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:72
+msgid "Application ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:54
+msgid "Google+"
+msgstr ""
+
+#. Name of the theme
+msgid "ft-theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/oyakata-s/ft-theme"
+msgstr ""
+
+#. Author of the theme
+msgid "oyakata-s"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://something-25.com"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/comments.php:17
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;への1件の返信"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/comments.php:22
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "&ldquo;%2$s&rdquo;への%1$s件の返信"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/footer.php:10
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:51
+msgid "If the widget is not set, this will be displayed."
+msgstr "ウィジェットを設定していない場合、これが表示されます。"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/index.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/index.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "お探しのものが見つからないようです。検索すると良いかもしれません。"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/searchform.php:3
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "検索..."
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:23
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:34
+msgid "Social Account"
+msgstr "ソーシャルアカウント"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/filters.php:40
+msgid "(No Title)"
+msgstr "（タイトルなし）"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/init.php:11
+msgid "Global Navigation"
+msgstr "グローバルナビ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:2
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-ad.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-ad.php:13
+msgid "Ad Settings"
+msgstr "広告設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:17
+msgid "It's necessary to log in to facebook to change advertisement settings."
+msgstr "広告設定を変更するには、Facebookにログインしてください。"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:22
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:25
+msgid "Hide Ad"
+msgstr "広告を隠す"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:31
+msgid "Custom Ad code"
+msgstr "カスタム広告コード"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:32
+msgid "Edit Ad code directly"
+msgstr "広告コードを編集します"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:38
+msgid "Please enter custom ad code here."
+msgstr "ここに広告コードを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:43
+msgid "Activation"
+msgstr "アクティベート"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:46
+msgid "Login with Facebook"
+msgstr "Facebookにログイン"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:48
+msgid "Logout from Facebook"
+msgstr "Facebookからログアウト"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:50
+msgid "When you log out from facebook, advertisement settings becomes invalid."
+msgstr "Facebookからログアウトすると、変更した設定は無視されます。"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:2
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-social.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-social.php:13
+msgid "Social Settings"
+msgstr "ソーシャル設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:9
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:12
+msgid "Account Settings"
+msgstr "アカウント設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:15
+msgid "Please enter Facebook account name or Profile URL"
+msgstr "FacebookのアカウントまたはプロフィールURLを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:17
+msgid "Please enter Twitter account name or Profile URL"
+msgstr "TwitterのアカウントまたはプロフィールURLを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:19
+msgid "Please enter Google+ Profile URL / ID"
+msgstr "Google+のIDまたはプロフィールURLを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:21
+msgid "Please enter Instagram account name or Profile URL"
+msgstr "InstagramのアカウントまたはプロフィールURLを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:27
+msgid "Share Button Settings"
+msgstr "シェアボタン設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:30
+msgid "Official Button"
+msgstr "公式ボタン"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:33
+msgid "Use Official Share Button"
+msgstr "公式が提供しているボタンを使用"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:39
+msgid "Services"
+msgstr "サービス"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:54
+msgid "Display at"
+msgstr "表示ページ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:57
+msgid "Page"
+msgstr "固定ページ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:59
+msgid "Post"
+msgstr "投稿ページ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:61
+msgid "Index"
+msgstr "インデックス"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:63
+msgid "Front Page"
+msgstr "フロントページ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:69
+msgid "Facebook Settings"
+msgstr "Facebook設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:74
+msgid "Please enter Facebook Application ID"
+msgstr "FacebookアプリケーションIDを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:39
+msgid "Share"
+msgstr "シェアする"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:44
+msgid "Tweet"
+msgstr "ツイート"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:10
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:24
+msgid "Color Scheme"
+msgstr "配色"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:27
+msgid "Default"
+msgstr "デフォルト"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:28
+msgid "Light"
+msgstr "ライト"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:29
+msgid "Blue"
+msgstr "ブルー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:30
+msgid "Coffee"
+msgstr "コーヒー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:31
+msgid "Ectoplasm"
+msgstr "エクトプラズム"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:32
+msgid "Midnight"
+msgstr "ミッドナイト"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:33
+msgid "Ocean"
+msgstr "オーシャン"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:34
+msgid "Sunrise"
+msgstr "サンライズ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-noimage.php:10
+msgid "No Image"
+msgstr "画像なし設定"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-noimage.php:24
+msgid "Default No Image"
+msgstr "デフォルト画像"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:10
+msgid "Side Bar"
+msgstr "サイドバー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:27
+msgid "Side Bar Layout"
+msgstr "表示位置"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:30
+msgid "Right"
+msgstr "右側"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:31
+msgid "Left"
+msgstr "左側"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:48
+msgid "Auto Toggle"
+msgstr "自動で開閉する"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:10
+msgid "Header Slider"
+msgstr "ヘッダースライダー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:29
+msgid "Slider Enable"
+msgstr "スライダーを有効にする"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:47
+msgid "Direction"
+msgstr "スライドの方向"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:50
+msgid "Horizontal"
+msgstr "水平"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:51
+msgid "Vertical"
+msgstr "垂直"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:69
+msgid "Effect"
+msgstr "アニメーション"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:72
+msgid "Slide"
+msgstr "スライド"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:73
+msgid "Fade"
+msgstr "フェード"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:74
+msgid "Cube"
+msgstr "キューブ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:75
+msgid "CoverFlow"
+msgstr "カバーフロー"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:76
+msgid "Flip"
+msgstr "フリップ"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:94
+msgid "Speed(msec)"
+msgstr "アニメーション速度（ミリ秒）"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:112
+msgid "Autoplay(msec)"
+msgstr "切替間隔（ミリ秒）"
+
+#. Description of the theme
+msgid "some theme"
+msgstr "あるテーマ"

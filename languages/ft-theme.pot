@@ -1,0 +1,357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ft-theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-10 06:40+0000\n"
+"POT-Revision-Date: Wed Aug 16 2017 20:59:46 GMT+0900 (JST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: satohru <satohru_f@yahoo.co.jp>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ja_JP\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/comments.php:17
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/comments.php:22
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/footer.php:10
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:51
+msgid "If the widget is not set, this will be displayed."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/footer.php:18
+msgid "Advertisement"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:12
+msgid "Pick Up!"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:38
+msgid "No Pickup post."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/home.php:45
+msgid "Entries"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/index.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/index.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/searchform.php:3
+msgctxt "placeholder"
+msgid "Search..."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:23
+msgid "Main Menu"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/sidebar.php:34
+msgid "Social Account"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/filters.php:40
+msgid "(No Title)"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/init.php:11
+msgid "Global Navigation"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:2
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-ad.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-ad.php:13
+msgid "Ad Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:17
+msgid "It's necessary to log in to facebook to change advertisement settings."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:22
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:25
+msgid "Hide Ad"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:31
+msgid "Custom Ad code"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:32
+msgid "Edit Ad code directly"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:38
+msgid "Please enter custom ad code here."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:43
+msgid "Activation"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:46
+msgid "Login with Facebook"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:48
+msgid "Logout from Facebook"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-ad.php:50
+msgid "When you log out from facebook, advertisement settings becomes invalid."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:2
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-social.php:12
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/menu-social.php:13
+msgid "Social Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:9
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:12
+msgid "Account Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:15
+msgid "Please enter Facebook account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:17
+msgid "Please enter Twitter account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:19
+msgid "Please enter Google+ Profile URL / ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:21
+msgid "Please enter Instagram account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:27
+msgid "Share Button Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:30
+msgid "Official Button"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:33
+msgid "Use Official Share Button"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:39
+msgid "Services"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:54
+msgid "Display at"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:57
+msgid "Page"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:59
+msgid "Post"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:61
+msgid "Index"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:63
+msgid "Front Page"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:69
+msgid "Facebook Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:72
+msgid "Application ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/admin-social.php:74
+msgid "Please enter Facebook Application ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:39
+msgid "Share"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:44
+msgid "Tweet"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/parts/share_button.php:54
+msgid "Google+"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:10
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:24
+msgid "Color Scheme"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:27
+msgid "Default"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:28
+msgid "Light"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:29
+msgid "Blue"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:30
+msgid "Coffee"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:31
+msgid "Ectoplasm"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:32
+msgid "Midnight"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:33
+msgid "Ocean"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-color.php:34
+msgid "Sunrise"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-noimage.php:10
+msgid "No Image"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-noimage.php:24
+msgid "Default No Image"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:10
+msgid "Side Bar"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:27
+msgid "Side Bar Layout"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:30
+msgid "Right"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:31
+msgid "Left"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-sidebar.php:48
+msgid "Auto Toggle"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:10
+msgid "Header Slider"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:29
+msgid "Slider Enable"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:47
+msgid "Direction"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:50
+msgid "Horizontal"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:51
+msgid "Vertical"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:69
+msgid "Effect"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:72
+msgid "Slide"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:73
+msgid "Fade"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:74
+msgid "Cube"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:75
+msgid "CoverFlow"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:76
+msgid "Flip"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:94
+msgid "Speed(msec)"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/themes/ft-theme/inc/admin/customize-slider.php:112
+msgid "Autoplay(msec)"
+msgstr ""
+
+#. Name of the theme
+msgid "ft-theme"
+msgstr ""
+
+#. Description of the theme
+msgid "some theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/oyakata-s/ft-theme"
+msgstr ""
+
+#. Author of the theme
+msgid "oyakata-s"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://something-25.com"
+msgstr ""

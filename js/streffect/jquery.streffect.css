@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*
+ * 共通
+ */
+.streffect {
+	visibility: hidden;
+	transform: translateZ(0);
+}
+.streffect-container span {
+	display: inline-block;
+	opacity: 0;
+}
+
+.streffect-container span.effect {
+	opacity: 1;
+}
+
+/*
+ * efect:delay
+ */
+.streffect-container.delay span {
+}
+
+.streffect-container.delay span.effect {
+	animation: delay 0.5s ease-out forwards;
+}
+
+/*
+ * efect:switch
+ */
+.streffect-container.switch span {
+}
+
+.streffect-container.switch span.effect {
+	animation: switch 0.2s linear forwards;
+}
+
+/*
+ * efect:type
+ */
+.streffect-container.typewriter span {
+}
+
+.streffect-container.typewriter span.effect {
+}
+
+
+/*
+ * animation
+ */
+@keyframes delay {
+	0% {
+		filter: blur(10px);
+		transform: translateY(-0.5em);
+	}
+	100% {
+		filter: blur(0);
+		transform: translateY(0);
+	}
+}
+
+@keyframes switch {
+	0% {
+		transform: translateY(-0.4em);
+	}
+	1% {
+		transform: translateY(-0.5em);
+	}
+	99% {
+		transform: translateY(0.1em);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}

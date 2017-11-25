@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*
+ * 管理画面用スタイルシート
+ */
+
+#ad-setting h3, #social-setting h3 {
+	padding-left: 1.0em;
+	border-left: 10px solid #333;
+}
+
+#ad-setting input[type=text], #social-setting input[type=text] {
+	width: 80%;
+}
+#ad-setting textarea, #social-setting textarea {
+	width: 100%;
+}
+
+#ad-setting p.description, #social-setting p.description {
+	font-style: oblique;
+}
+
+#ad-setting span.margin-right, #social-setting span.margin-right {
+	margin-right: 1.5em;
+}
+
+/*
+ * ソーシャル設定
+ */
+#account-set label {
+	width: 100px;
+}
+#account-set input[type=text] {
+	width: 80%;
+}
+
+/*
+ * 広告設定
+ */
+#ad-settings-block tr.activation {
+	display: block !important;
+}
+#ad-settings-block tr.no-activate {
+	display: none;
+}
+#ad-settings-block tr:not(.no-activate) {
+	display: block;
+}
+#ad-settings-block.disabled tr.no-activate {
+	display: block;
+}
+#ad-settings-block.disabled tr:not(.no-activate) {
+	display: none;
+}
+
+#ad-settings-block td {
+	min-width: 300px;
+}
+
+#facebook_connect, #facebook_disconnect {
+	font-family: "FontAwesome",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+#facebook_connect {
+	border-color: #314b7f;
+	background: #3b5998;
+	box-shadow: 0 1px 0 #273c66;
+	text-shadow: 0 -1px 1px #273c66, 1px 0 1px #273c66, 0 1px 1px #273c66, -1px 0 1px #273c66;
+}

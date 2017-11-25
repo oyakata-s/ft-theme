@@ -1,0 +1,1118 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------
+ * 色指定CSS
+ *----------------------------------------------*/
+
+/*
+ * 【デフォルト】
+ * ベース１：#222
+ * ベース２：#333
+ * アクセント１：#0073aa
+ * アクセント２：#00a0d2
+ */
+
+/*
+ * 【ライト】
+ * ベース１：#e5e5e5
+ * ベース２：#999
+ * アクセント１：#d64e07
+ * アクセント２：#04a4cc
+ */
+
+/*
+ * 【ブルー】
+ * ベース１：#096484
+ * ベース２：#4796b3
+ * アクセント１：#52accc
+ * アクセント２：#74B6CE
+ */
+
+/*
+ * 【コーヒー】
+ * ベース１：#46403c
+ * ベース２：#59524c
+ * アクセント１：#c7a589
+ * アクセント２：#9ea476
+ */
+
+/*
+ * 【エクトプラズム】
+ * ベース１：#413256
+ * ベース２：#523f6d
+ * アクセント１：#a3b745
+ * アクセント２：#d46f15
+ */
+
+/*
+ * 【ミッドナイト】
+ * ベース１：#25282b
+ * ベース２：#363b3f
+ * アクセント１：#69a8bb
+ * アクセント２：#e14d43
+ */
+
+/*
+ * 【オーシャン】
+ * ベース１：#627c83
+ * ベース２：#738e96
+ * アクセント１：#9ebaa0
+ * アクセント２：#aa9d88
+ */
+
+/*
+ * 【サンライズ】
+ * ベース１：#b43c38
+ * ベース２：#cf4944
+ * アクセント１：#dd823b
+ * アクセント２：#ccaf0b
+ */
+
+/*
+ * 共通
+ */
+body {
+	background-color: #f1f1f1;
+	color: #444;
+}
+
+/*
+ * 【デフォルト】
+ */
+a:link {
+	color: #0073aa;
+}
+a:visited {
+	color: #0073aa;
+}
+a:hover {
+	color: #00a0d2;
+}
+a:active {
+	color: #00a0d2;
+}
+
+.section > .title {
+	background-color: #00a0d2;
+	color: #fff;
+}
+
+.pagination .page-numbers.current {
+	color: #00a0d2;
+}
+.pagination a.page-numbers {
+	background-color: #00a0d2;
+	color: #fff;
+}
+.pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #00a0d2;
+}
+.pagination > .page-numbers {
+	color: #00a0d2;
+}
+.pagination > a {
+	background-color: #00a0d2;
+	color: #fff;
+}
+.pagination > a:hover {
+	background-color: #fff;
+	color: #00a0d2;
+}
+
+.noresult .search-form .search-submit:hover {
+	background-color: #00a0d2;
+}
+
+/*#header*/
+#header {
+	color: #fff;
+}
+#header .header-bg {
+	background-color: #222;
+}
+#header a {
+	color: #fff;
+}
+#header a:hover {
+	color: #00a0d2;
+}
+
+#header.has-header-img {
+	color: #fff !important;
+}
+#header.has-header-img a {
+	color: #fff !important;
+}
+#header.has-header-img .header-bg {
+	background-color: #f1f1f1 !important;
+}
+
+/*#gnav*/
+#gnav {
+	background-color: transparent;
+	color: #fff;
+}
+#gnav.header-fixed {
+	background-color: #222;
+}
+#gnav a {
+	color: #fff;
+}
+#gnav a:hover {
+	color: #00a0d2;
+}
+
+#header.has-header-img + #gnav a {
+	color: #fff;
+}
+#header.has-header-img + #gnav a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+
+#header + #gnav.header-fixed a:hover {
+	opacity: 1;
+	color: #00a0d2;
+}
+
+/*#gnav-open*/
+#header.has-header-img + #gnav + #gnav-open:not(.header-fixed) {
+	background-color: rgba(255,255,255,0.9) !important;
+}
+#header.has-header-img + #gnav + #gnav-open:not(.header-fixed) a {
+	color: #666 !important;
+}
+#header.has-header-img + #gnav + #gnav-open:not(.header-fixed) a:hover {
+	opacity: 0.8 !important;
+}
+
+#header + #gnav + #gnav-open {
+	background-color: rgba(34,34,34,0.9); /*#222*/
+}
+#header + #gnav + #gnav-open a {
+	color: #fff;
+}
+#header + #gnav + #gnav-open a:hover {
+	color: #00a0d2;
+}
+
+/*#side*/
+#side {
+	background-color: #333;
+	color: #fff;
+}
+#side a {
+	color: #fff;
+}
+#side a:hover {
+	color: #00a0d2;
+}
+#side .side-header {
+	background-color: rgba(255,255,255,0.3);
+}
+#side .side-header .side-meta .description {
+	color: rgba(255,255,255,0.8);
+}
+#side .widget .title {
+	background-color: #222;
+}
+#side .widget .title:before {
+	color: #ccc;
+}
+#side .widget ul li a:hover {
+	background-color: #222;
+	color: #00a0d2;
+}
+#side .widget.widget_tag_cloud a:hover {
+	background-color: #222;
+	color: #00a0d2;
+}
+
+/*#comments*/
+#comments .reply .comment-reply-link {
+	background-color: #00a0d2;
+	box-shadow: 0 1px 2px #0073aa;
+	color: #fff;
+}
+#comments .reply .comment-reply-link:hover {
+	background-color: #0073aa;
+}
+#comments .nav-previous a:before, #comments .nav-next a:after {
+	background-color: #00a0d2;
+	color: #fff;
+}
+
+#commentform .comment-notes, #commentform .logged-in-as {
+	border-left: 10px solid #000;
+}
+
+#submit {
+	background-color: #00a0d2;
+	box-shadow: 0 1px 2px #0073aa;
+	color: #fff;
+}
+#submit:hover {
+	background-color: #0073aa;
+}
+
+/*
+ * 【ブルー】
+ */
+body.color-blue a:link {
+	color: #52accc;
+}
+body.color-blue a:visited {
+	color: #52accc;
+}
+body.color-blue a:hover {
+	color: #74b6ce;
+}
+body.color-blue a:active {
+	color: #74b6ce;
+}
+body.color-blue .section > .title {
+	background-color: #52accc;
+}
+body.color-blue .pagination .page-numbers.current {
+	color: #52accc;
+}
+body.color-blue .pagination a.page-numbers {
+	background-color: #52accc;
+	color: #fff;
+}
+body.color-blue .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #52accc;
+}
+body.color-blue .pagination > .page-numbers {
+	color: #52accc;
+}
+body.color-blue .pagination > a {
+	background-color: #52accc;
+	color: #fff;
+}
+body.color-blue .pagination > a:hover {
+	background-color: #fff;
+	color: #52accc;
+}
+body.color-blue .noresult .search-form .search-submit:hover {
+	background-color: #52accc;
+}
+/*#header*/
+body.color-blue #header .header-bg {
+	background-color: #52accc;
+}
+body.color-blue #header a:hover {
+	color: #fff;
+}
+/*#gnav*/
+body.color-blue #gnav.header-fixed {
+	background-color: #52accc;
+}
+body.color-blue #gnav a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+body.color-blue #header + #gnav.header-fixed a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#gnav-open*/
+body.color-blue #header + #gnav + #gnav-open {
+	background-color: rgba(82,172,204,0.9);
+}
+body.color-blue #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-blue #header + #gnav + #gnav-open a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#side*/
+body.color-blue #side {
+	background-color: #52accc;
+	color: #fff;
+}
+body.color-blue #side a:hover {
+	color: #fff;
+}
+body.color-blue #side .widget .title {
+	background-color: #4796b3;
+}
+body.color-blue #side .widget .title:before {
+	color: #fff;
+}
+body.color-blue #side .widget ul li a:hover {
+	background-color: #4796b3;
+	color: #fff;
+}
+body.color-blue #side .widget.widget_tag_cloud a:hover {
+	background-color: #4796b3;
+	color: #fff;
+}
+/*#comments*/
+body.color-blue #comments .reply .comment-reply-link {
+	background-color: #52accc;
+	box-shadow: 0 1px 2px #4796b3;
+}
+body.color-blue #comments .reply .comment-reply-link:hover {
+	background-color: #4796b3;
+}
+body.color-blue #comments .nav-previous a:before, body.color-blue #comments .nav-next a:after {
+	background-color: #52accc;
+	color: #fff;
+}
+body.color-blue #submit {
+	background-color: #52accc;
+	box-shadow: 0 1px 2px #4796b3;
+}
+body.color-blue #submit:hover {
+	background-color: #4796b3;
+}
+
+
+/*
+ * 【ライト】
+ */
+body.color-light a:link {
+	color: #d64e07;
+}
+body.color-light a:visited {
+	color: #d64e07;
+}
+body.color-light a:hover {
+	opacity: 0.7;
+	color: #d64e07;
+}
+body.color-light a:active {
+	opacity: 0.7;
+	color: #d64e07;
+}
+body.color-light .section > .title {
+	background-color: #d64e07;
+}
+body.color-light .pagination .page-numbers.current {
+	color: #d64e07;
+}
+body.color-light .pagination a.page-numbers {
+	background-color: #d64e07;
+	color: #fff;
+}
+body.color-light .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #d64e07;
+}
+body.color-light .pagination > .page-numbers {
+	color: #d64e07;
+}
+body.color-light .pagination > a {
+	background-color: #d64e07;
+	color: #fff;
+}
+body.color-light .pagination > a:hover {
+	background-color: #fff;
+	color: #d64e07;
+}
+body.color-light .noresult .search-form .search-submit:hover {
+	background-color: #d64e07;
+}
+/*#header*/
+body.color-light #header {
+	color: #333;
+}
+body.color-light #header .header-bg {
+	background-color: #e5e5e5;
+}
+body.color-light #header a {
+	color: #333;
+}
+body.color-light #header a:hover {
+	color: #333;
+}
+/*#gnav*/
+body.color-light #gnav.header-fixed {
+	background-color: #e5e5e5;
+}
+body.color-light #gnav a {
+	color: #333;
+}
+body.color-light #gnav a:hover {
+	opacity: 0.8;
+	color: #333;
+}
+body.color-light #header + #gnav.header-fixed a {
+	color: #333;
+}
+body.color-light #header + #gnav.header-fixed a:hover {
+	opacity: 0.8;
+	color: #333;
+}
+/*#gnav-open*/
+body.color-light #header + #gnav + #gnav-open {
+	background-color: rgba(229,229,229,0.9);
+}
+body.color-light #header + #gnav + #gnav-open a {
+	color: #333;
+}
+body.color-light #header + #gnav + #gnav-open a:hover {
+	opacity: 0.8;
+	color: #333;
+}
+/*#side*/
+body.color-light #side {
+	background-color: #fff;
+	color: #333;
+}
+body.color-light #side a {
+	color: #333;
+}
+body.color-light #side a:hover {
+	color: #333;
+}
+body.color-light #side .side-header {
+	background-color: rgba(0,0,0,0.3);
+}
+body.color-light #side .side-header .side-meta .description {
+	color: rgba(0,0,0,0.8);
+}
+body.color-light #side .widget .title {
+	background-color: #e5e5e5;
+}
+body.color-light #side .widget .title:before {
+	color: #333;
+}
+body.color-light #side .widget ul li a:hover {
+	background-color: #ccc;
+	color: #333;
+}
+body.color-light #side .widget.widget_tag_cloud a:hover {
+	background-color: #ccc;
+	color: #333;
+}
+body.color-light #side .widget.widget_search .search-form .search-field {
+	color: #333;
+}
+body.color-light #side .widget.widget_search .search-form .search-field::-webkit-input-placeholder {
+	color: #333;
+}
+body.color-light #side .widget.widget_search .search-form .search-field::-moz-placeholder {
+	color: #333;
+}
+body.color-light #side .widget.widget_search .search-form .search-field:focus {
+	border-bottom: 1px solid #333;
+}
+body.color-light #side .widget.widget_search .search-form .search-submit {
+	color: #333;
+}
+/*#comments*/
+body.color-light #comments .reply .comment-reply-link {
+	background-color: #d64e07;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-light #comments .reply .comment-reply-link:hover {
+	opacity: 0.8;
+}
+body.color-light #comments .nav-previous a:before, body.color-light #comments .nav-next a:after {
+	background-color: #d64e07;
+	color: #fff;
+}
+body.color-light #commentform .comment-notes, body.color-light #commentform .logged-in-as {
+	border-left: 10px solid #d64e07;
+}
+body.color-light #submit {
+	background-color: #d64e07;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-light #submit:hover {
+	opacity: 0.8;
+}
+
+
+/*
+ * 【コーヒー】
+ */
+body.color-coffee a:link {
+	color: #9ea476;
+}
+body.color-coffee a:visited {
+	color: #9ea476;
+}
+body.color-coffee a:hover {
+	opacity: 0.7;
+	color: #9ea476;
+}
+body.color-coffee a:active {
+	opacity: 0.7;
+	color: #9ea476;
+}
+body.color-coffee .section > .title {
+	background-color: #c7a589;
+}
+body.color-coffee .pagination .page-numbers.current {
+	color: #c7a589;
+}
+body.color-coffee .pagination a.page-numbers {
+	background-color: #c7a589;
+	color: #fff;
+}
+body.color-coffee .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #c7a589;
+}
+body.color-coffee .pagination > .page-numbers {
+	color: #c7a589;
+}
+body.color-coffee .pagination > a {
+	background-color: #c7a589;
+	color: #fff;
+}
+body.color-coffee .pagination > a:hover {
+	background-color: #fff;
+	color: #c7a589;
+}
+body.color-coffee .noresult .search-form .search-submit:hover {
+	background-color: #c7a589;
+}
+/*#header*/
+body.color-coffee #header .header-bg {
+	background-color: #46403c;
+}
+body.color-coffee #header a:hover {
+	color: #c7a589;
+}
+/*#gnav*/
+body.color-coffee #gnav.header-fixed {
+	background-color: #46403c;
+}
+body.color-coffee #gnav a:hover {
+	color: #c7a589;
+}
+body.color-coffee #header + #gnav.header-fixed a:hover {
+	color: #c7a589;
+}
+/*#gnav-open*/
+body.color-coffee #header + #gnav + #gnav-open {
+	background-color: rgba(70,64,60,0.9);
+}
+body.color-coffee #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-coffee #header + #gnav + #gnav-open a:hover {
+	color: #c7a589;
+}
+/*#side*/
+body.color-coffee #side {
+	background-color: #59524c;
+	color: #fff;
+}
+body.color-coffee #side a:hover {
+	color: #c7a589;
+}
+body.color-coffee #side .widget .title {
+	background-color: #46403c;
+}
+body.color-coffee #side .widget .title:before {
+	color: #fff;
+}
+body.color-coffee #side .widget ul li a:hover {
+	background-color: #46403c;
+	color: #fff;
+}
+body.color-coffee #side .widget.widget_tag_cloud a:hover {
+	background-color: #46403c;
+	color: #fff;
+}
+/*#comments*/
+body.color-coffee #comments .reply .comment-reply-link {
+	background-color: #c7a589;
+	box-shadow: 0 1px 2px #59524c;
+}
+body.color-coffee #comments .reply .comment-reply-link:hover {
+	background-color: #59524c;
+}
+body.color-coffee #comments .nav-previous a:before, body.color-coffee #comments .nav-next a:after {
+	background-color: #c7a589;
+	color: #fff;
+}
+body.color-coffee #commentform .comment-notes, body.color-coffee #commentform .logged-in-as {
+	border-left: 10px solid #c7a589;
+}
+body.color-coffee #submit {
+	background-color: #c7a589;
+	box-shadow: 0 1px 2px #59524c;
+}
+body.color-coffee #submit:hover {
+	background-color: #59524c;
+}
+
+
+/*
+ * 【エクトプラズム】
+ */
+body.color-ectoplasm a:link {
+	color: #d46f15;
+}
+body.color-ectoplasm a:visited {
+	color: #d46f15;
+}
+body.color-ectoplasm a:hover {
+	opacity: 0.7;
+	color: #d46f15;
+}
+body.color-ectoplasm a:active {
+	opacity: 0.7;
+	color: #d46f15;
+}
+body.color-ectoplasm .section > .title {
+	background-color: #a3b745;
+}
+body.color-ectoplasm .pagination .page-numbers.current {
+	color: #a3b745;
+}
+body.color-ectoplasm .pagination a.page-numbers {
+	background-color: #a3b745;
+	color: #fff;
+}
+body.color-ectoplasm .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #a3b745;
+}
+body.color-ectoplasm .pagination > .page-numbers {
+	color: #a3b745;
+}
+body.color-ectoplasm .pagination > a {
+	background-color: #a3b745;
+	color: #fff;
+}
+body.color-ectoplasm .pagination > a:hover {
+	background-color: #fff;
+	color: #a3b745;
+}
+body.color-ectoplasm .noresult .search-form .search-submit:hover {
+	background-color: #a3b745;
+}
+/*#header*/
+body.color-ectoplasm #header .header-bg {
+	background-color: #413256;
+}
+body.color-ectoplasm #header a:hover {
+	color: #a3b745;
+}
+/*#gnav*/
+body.color-ectoplasm #gnav.header-fixed {
+	background-color: #413256;
+}
+body.color-ectoplasm #gnav a:hover {
+	color: #a3b745;
+}
+body.color-ectoplasm #header + #gnav.header-fixed a:hover {
+	color: #a3b745;
+}
+/*#gnav-open*/
+body.color-ectoplasm #header + #gnav + #gnav-open {
+	background-color: rgba(65,50,86,0.9);
+}
+body.color-ectoplasm #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-ectoplasm #header + #gnav + #gnav-open a:hover {
+	color: #a3b745;
+}
+/*#side*/
+body.color-ectoplasm #side {
+	background-color: #523f6d;
+	color: #fff;
+}
+body.color-ectoplasm #side a:hover {
+	color: #fff;
+}
+body.color-ectoplasm #side .widget .title {
+	background-color: #413256;
+}
+body.color-ectoplasm #side .widget .title:before {
+	color: #fff;
+}
+body.color-ectoplasm #side .widget ul li a:hover {
+	background-color: #a3b745;
+	color: #fff;
+}
+body.color-ectoplasm #side .widget.widget_tag_cloud a:hover {
+	background-color: #a3b745;
+	color: #fff;
+}
+/*#comments*/
+body.color-ectoplasm #comments .reply .comment-reply-link {
+	background-color: #a3b745;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-ectoplasm #comments .reply .comment-reply-link:hover {
+	opacity: 0.9;
+}
+body.color-ectoplasm #comments .nav-previous a:before, body.color-ectoplasm #comments .nav-next a:after {
+	background-color: #a3b745;
+	color: #fff;
+}
+body.color-ectoplasm #commentform .comment-notes, body.color-ectoplasm #commentform .logged-in-as {
+	border-left: 10px solid #a3b745;
+}
+body.color-ectoplasm #submit {
+	background-color: #a3b745;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-ectoplasm #submit:hover {
+	opacity: 0.9;
+}
+
+
+/*
+ * 【ミッドナイト】
+ */
+body.color-midnight a:link {
+	color: #e14d43;
+}
+body.color-midnight a:visited {
+	color: #e14d43;
+}
+body.color-midnight a:hover {
+	opacity: 0.7;
+	color: #e14d43;
+}
+body.color-midnight a:active {
+	opacity: 0.7;
+	color: #e14d43;
+}
+body.color-midnight .section > .title {
+	background-color: #e14d43;
+}
+body.color-midnight .pagination .page-numbers.current {
+	color: #e14d43;
+}
+body.color-midnight .pagination a.page-numbers {
+	background-color: #e14d43;
+	color: #fff;
+}
+body.color-midnight .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #e14d43;
+}
+body.color-midnight .pagination > .page-numbers {
+	color: #e14d43;
+}
+body.color-midnight .pagination > a {
+	background-color: #e14d43;
+	color: #fff;
+}
+body.color-midnight .pagination > a:hover {
+	background-color: #fff;
+	color: #e14d43;
+}
+body.color-midnight .noresult .search-form .search-submit:hover {
+	background-color: #e14d43;
+}
+/*#header*/
+body.color-midnight #header .header-bg {
+	background-color: #25282b;
+}
+body.color-midnight #header a:hover {
+	color: #e14d43;
+}
+/*#gnav*/
+body.color-midnight #gnav.header-fixed {
+	background-color: #25282b;
+}
+body.color-midnight #gnav a:hover {
+	color: #e14d43;
+}
+body.color-midnight #header + #gnav.header-fixed a:hover {
+	color: #e14d43;
+}
+/*#gnav-open*/
+body.color-midnight #header + #gnav + #gnav-open {
+	background-color: rgba(37,40,43,0.9);
+}
+body.color-midnight #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-midnight #header + #gnav + #gnav-open a:hover {
+	color: #e14d43;
+}
+/*#side*/
+body.color-midnight #side {
+	background-color: #363b3f;
+	color: #fff;
+}
+body.color-midnight #side a:hover {
+	color: #fff;
+}
+body.color-midnight #side .widget .title {
+	background-color: #25282b;
+}
+body.color-midnight #side .widget .title:before {
+	color: #fff;
+}
+body.color-midnight #side .widget ul li a:hover {
+	background-color: #e14d43;
+	color: #fff;
+}
+body.color-midnight #side .widget.widget_tag_cloud a:hover {
+	background-color: #e14d43;
+	color: #fff;
+}
+/*#comments*/
+body.color-midnight #comments .reply .comment-reply-link {
+	background-color: #e14d43;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-midnight #comments .reply .comment-reply-link:hover {
+	opacity: 0.9;
+}
+body.color-midnight #comments .nav-previous a:before, body.color-midnight #comments .nav-next a:after {
+	background-color: #e14d43;
+	color: #fff;
+}
+body.color-midnight #commentform .comment-notes, body.color-midnight #commentform .logged-in-as {
+	border-left: 10px solid #e14d43;
+}
+body.color-midnight #submit {
+	background-color: #e14d43;
+	box-shadow: 0 1px 2px #ccc;
+}
+body.color-midnight #submit:hover {
+	opacity: 0.9;
+}
+
+
+/*
+ * 【オーシャン】
+ */
+body.color-ocean a:link {
+	color: #627c83;
+}
+body.color-ocean a:visited {
+	color: #627c83;
+}
+body.color-ocean a:hover {
+	color: #738e96;
+}
+body.color-ocean a:active {
+	color: #738e96;
+}
+body.color-ocean .section > .title {
+	background-color: #738e96;
+}
+body.color-ocean .pagination .page-numbers.current {
+	color: #738e96;
+}
+body.color-ocean .pagination a.page-numbers {
+	background-color: #738e96;
+	color: #fff;
+}
+body.color-ocean .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #738e96;
+}
+body.color-ocean .pagination > .page-numbers {
+	color: #738e96;
+}
+body.color-ocean .pagination > a {
+	background-color: #738e96;
+	color: #fff;
+}
+body.color-ocean .pagination > a:hover {
+	background-color: #fff;
+	color: #738e96;
+}
+body.color-ocean .noresult .search-form .search-submit:hover {
+	background-color: #738e96;
+}
+/*#header*/
+body.color-ocean #header .header-bg {
+	background-color: #738e96;
+}
+body.color-ocean #header a:hover {
+	color: #9ebaa0;
+}
+/*#gnav*/
+body.color-ocean #gnav.header-fixed {
+	background-color: #738e96;
+}
+body.color-ocean #gnav a:hover {
+	color: #fff;
+}
+body.color-ocean #header + #gnav.header-fixed a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#gnav-open*/
+body.color-ocean #header + #gnav + #gnav-open {
+	background-color: rgba(115,142,150,0.9);
+}
+body.color-ocean #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-ocean #header + #gnav + #gnav-open a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#side*/
+body.color-ocean #side {
+	background-color: #627c83;
+	color: #fff;
+}
+body.color-ocean #side a:hover {
+	color: #fff;
+}
+body.color-ocean #side .widget .title {
+	background-color: #738e96;
+}
+body.color-ocean #side .widget .title:before {
+	color: #fff;
+}
+body.color-ocean #side .widget ul li a:hover {
+	background-color: #9ebaa0;
+	color: #fff;
+}
+body.color-ocean #side .widget.widget_tag_cloud a:hover {
+	background-color: #9ebaa0;
+	color: #fff;
+}
+/*#comments*/
+body.color-ocean #comments .reply .comment-reply-link {
+	background-color: #738e96;
+	box-shadow: 0 1px 2px #627c83;
+}
+body.color-ocean #comments .reply .comment-reply-link:hover {
+	background-color: #627c83;
+}
+body.color-ocean #comments .nav-previous a:before, body.color-ocean #comments .nav-next a:after {
+	background-color: #738e96;
+	color: #fff;
+}
+body.color-ocean #commentform .comment-notes, body.color-ocean #commentform .logged-in-as {
+	border-left: 10px solid #738e96;
+}
+body.color-ocean #submit {
+	background-color: #738e96;
+	box-shadow: 0 1px 2px #627c83;
+}
+body.color-ocean #submit:hover {
+	background-color: #627c83;
+}
+
+
+/*
+ * 【サンライズ】
+ */
+body.color-sunrise a:link {
+	color: #b43c38;
+}
+body.color-sunrise a:visited {
+	color: #b43c38;
+}
+body.color-sunrise a:hover {
+	color: #cf4944;
+}
+body.color-sunrise a:active {
+	color: #cf4944;
+}
+body.color-sunrise .section > .title {
+	background-color: #cf4944;
+}
+body.color-sunrise .pagination .page-numbers.current {
+	color: #cf4944;
+}
+body.color-sunrise .pagination a.page-numbers {
+	background-color: #cf4944;
+	color: #fff;
+}
+body.color-sunrise .pagination a.page-numbers:hover {
+	background-color: #fff;
+	color: #cf4944;
+}
+body.color-sunrise .pagination > .page-numbers {
+	color: #cf4944;
+}
+body.color-sunrise .pagination > a {
+	background-color: #cf4944;
+	color: #fff;
+}
+body.color-sunrise .pagination > a:hover {
+	background-color: #fff;
+	color: #cf4944;
+}
+body.color-sunrise .noresult .search-form .search-submit:hover {
+	background-color: #cf4944;
+}
+/*#header*/
+body.color-sunrise #header .header-bg {
+	background-color: #cf4944;
+}
+body.color-sunrise #header a:hover {
+	color: #fff;
+}
+body.color-sunrise #gnav.header-fixed {
+	background-color: #cf4944;
+}
+body.color-sunrise #gnav a:hover {
+	color: #fff;
+}
+body.color-sunrise #header + #gnav.header-fixed a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#gnav-open*/
+body.color-sunrise #header + #gnav + #gnav-open {
+	background-color: rgba(207,73,68,0.9);
+}
+body.color-sunrise #header + #gnav + #gnav-open a {
+	color: #fff;
+}
+body.color-sunrise #header + #gnav + #gnav-open a:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+/*#side*/
+body.color-sunrise #side {
+	background-color: #b43c38;
+	color: #fff;
+}
+body.color-sunrise #side a:hover {
+	color: #fff;
+}
+body.color-sunrise #side .widget .title {
+	background-color: #cf4944;
+}
+body.color-sunrise #side .widget .title:before {
+	color: #fff;
+}
+body.color-sunrise #side .widget ul li a:hover {
+	background-color: #dd823b;
+	color: #fff;
+}
+body.color-sunrise #side .widget.widget_tag_cloud a:hover {
+	background-color: #dd823b;
+	color: #fff;
+}
+/*#comments*/
+body.color-sunrise #comments .reply .comment-reply-link {
+	background-color: #cf4944;
+	box-shadow: 0 1px 2px #b43c38;
+}
+body.color-sunrise #comments .reply .comment-reply-link:hover {
+	background-color: #b43c38;
+}
+body.color-sunrise #comments .nav-previous a:before, body.color-sunrise #comments .nav-next a:after {
+	background-color: #cf4944;
+	color: #fff;
+}
+body.color-sunrise #commentform .comment-notes, body.color-sunrise #commentform .logged-in-as {
+	border-left: 10px solid #cf4944;
+}
+body.color-sunrise #submit {
+	background-color: #cf4944;
+	box-shadow: 0 1px 2px #b43c38;
+}
+body.color-sunrise #submit:hover {
+	background-color: #b43c38;
+}

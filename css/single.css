@@ -1,0 +1,514 @@
+@charset "UTF-8";
+
+/*
+ * #main
+ */
+#main {
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+/*
+ * #main .single, #main .page
+ */
+#main .single {
+	position: relative;
+}
+
+#main .content {
+	margin-bottom: 2.0em;
+	padding: 1.0em;
+}
+#main .content:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+/*
+ * 基本タグ最小限
+ */
+#main .content img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main .content a:link {
+	text-decoration: underline;
+}
+#main .content a:hover {
+	text-decoration: none;
+}
+
+#main .content blockquote {
+	padding: 0 1.0em;
+	border-left: 3px solid #ddd;
+	font-size: 1.1em;
+}
+
+#main .content table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#main .content table th, #main .content table td {
+	padding: 0.5em;
+}
+#main .content table thead th {
+	font-size: 1.1em;
+}
+#main .content table tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#main .content dl dt {
+	font-weight: bold;
+}
+#main .content dl dd {
+	margin-left: 0;
+}
+
+#main .meta {
+	clear: both;
+	margin-top: 1.0em;
+	color: #999;
+	font-size: 0.9rem;
+	font-style: oblique;
+	text-align: right;
+}
+
+#main .meta a:link, #main .meta a:visited, #main .meta a:hover, #main .meta a:active {
+	color: #999;
+}
+
+#main .meta span {
+	margin-left: 1.0em;
+}
+#main .meta span:before {
+	margin-right: 0.2em;
+	font-family: "FontAwesome";
+}
+#main .meta .title {
+	display: block;
+	word-wrap: break-word;
+}
+#main .meta .author:before {
+	content: "\f007";
+}
+#main .meta .post-date:before {
+	content: "\f073";
+}
+#main .meta .categories:before {
+	content: "\f07c";
+}
+#main .meta .tags:before {
+	content: "\f02b";
+}
+
+@media screen and (max-width: 768px) {
+	#main .meta span {
+		display: block;
+		margin-left: 0;
+		/*white-space: nowrap;*/
+	}
+}
+
+/*
+ * #comments
+ */
+#comments {
+	margin-bottom: 1.0em;
+}
+
+#comments a:hover {
+	text-decoration: underline;
+}
+
+#comments blockquote {
+	padding: 0 1.0em;
+	border-left: 3px solid #ddd;
+	font-size: 1.1em;
+}
+
+#comments table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#comments table th, #comments table td {
+	padding: 0.5em;
+}
+#comments table thead th {
+	font-size: 1.1em;
+}
+#comments table tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#comments dl dt {
+	font-weight: bold;
+}
+#comments dl dd {
+	margin-left: 0;
+}
+
+#comments .comments-title {
+	margin-bottom: 1.0rem;
+	border-bottom: 3px solid #444;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+#comments .comments-title:before {
+	margin-right: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f086";
+}
+
+#comments .comment-list {
+	list-style-type: none;
+	padding: 1.0em;
+}
+
+#comments .comment-awaiting-moderation {
+	color: #666;
+	font-size: 0.9rem;
+	font-style: oblique;
+}
+
+#comments .comment-author {
+	float: left;
+	margin-right: 1.0rem;
+}
+
+#comments .comment-author .avatar {
+	border-radius: 50%;
+}
+
+#comments .comment-author .fn {
+	display: block;
+	width: 60px;
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+#comments .comment-body {
+	margin-bottom: 0.5em;
+	border-bottom: 1px dashed #ccc;
+}
+#comments .comment-body .comment-text {
+	position: relative;
+	float: right;
+	width: calc(100% - 100px);
+	margin-bottom: 0.5em;
+	padding: 1.0em;
+	border-radius: 15px;
+	background-color: #fff;
+	word-wrap: break-word;
+	box-sizing: border-box;
+}
+#comments .comment-body .comment-text:after {
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	width: 0;
+	height: 0;
+	margin-top: -10px;
+	border: solid transparent;
+	border-color: rgba(255, 255, 255, 0);
+	content: " ";
+
+	border-right-color: #fff;
+	border-width: 10px;
+	pointer-events: none;
+}
+
+#comments .comment-meta {
+	clear: both;
+	font-size: 0.9rem;
+	font-style: oblique;
+	text-align: right;
+}
+
+#comments .reply {
+	margin-bottom: 0.5em;
+}
+
+#comments .reply a {
+	text-decoration: none;
+}
+
+#comments .reply .comment-reply-link {
+	display: inline-block;
+	padding: 0.5em 1.0em;
+	border-radius: 1.3em;
+	font-family: "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	font-size: 0.8rem;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+}
+
+#comments .children {
+	list-style-type: none;
+	padding-left: 1.0em;
+}
+
+#comments .no-comments {
+	position: relative;
+	padding: 0.5em 0 0.5em 2.5em;
+	background-color: #fff;
+	box-shadow: 0 5px 15px -10px #000;
+	color: #666;
+	font-size: 1.0rem;
+	font-style: oblique;
+	line-height: 1.0em;
+	box-sizing: border-box;
+}
+#comments .no-comments:before {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2.0em;
+	height: 1.0em;
+	padding: 0.5em 0;
+	background-color: #f33;
+	color: #fff;
+	font-family: "FontAwesome";
+	font-style: normal;
+	text-align: center;
+	content: "\f05e";
+}
+
+#comments .comment-navigation {
+	margin-bottom: 2.0rem;
+}
+
+#comments .comment-navigation .screen-reader-text {
+	margin-bottom: 1.0rem;
+	border-bottom: 3px solid #444;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+#comments .nav-links {
+	display: flex;
+
+	flex-wrap: wrap;
+}
+
+#comments .nav-previous, #comments .nav-next {
+	flex: 1;
+	min-width: 250px;
+	margin: 0 10px;
+}
+#comments .nav-previous a, #comments .nav-next a {
+	display: block;
+	position: relative;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	background-color: #fff;
+	box-shadow: 0 5px 15px -10px #000;
+	box-sizing: border-box;
+}
+
+#comments .nav-previous a {
+	padding-left: 2.5em;
+	text-align: left;
+}
+#comments .nav-previous a:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f060";
+}
+
+#comments .nav-next a {
+	padding-right: 2.5em;
+	text-align: right;
+}
+#comments .nav-next a:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f061";
+}
+
+/*
+ * #respond
+ */
+#respond .comment-reply-title {
+	margin-bottom: 1.0rem;
+	border-bottom: 3px solid #444;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+#respond .comment-reply-title:before {
+	margin-right: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f27a";
+}
+
+
+/*
+ * #commentform
+ */
+#commentform {
+	padding: 1.0em;
+}
+
+#commentform .comment-notes, #commentform .logged-in-as {
+	width: 100%;
+	max-width: 800px;
+	margin-bottom: 1.0rem;
+	padding: 0.5em;
+	background-color: #fff;
+	box-shadow: 0 5px 15px -10px #000;
+	font-size: 0.9rem;
+	font-style: oblique;
+	box-sizing: border-box;
+}
+
+#commentform .required {
+	color: #f00;
+}
+
+#commentform input[type=text], #commentform input[type=email], #commentform input[type=tel], #commentform input[type=url] {
+	display: block;
+	width: 100%;
+	max-width: 800px;
+	margin-bottom: 0.5rem;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px -6px #aaa inset;
+	outline: none;
+
+	transition: box-shadow 0.2s linear;
+}
+#commentform input[type=text], #commentform input[type=email], #commentform input[type=tel], #commentform input[type=url] {
+	box-shadow: 0 5px 10px -4px #aaa inset;
+}
+
+#comment {
+	width: 100%;
+	max-width: 800px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px -4px #aaa inset;
+	outline: none;
+
+	transition: box-shadow 0.2s linear;
+}
+#comment:focus {
+	box-shadow: 0 5px 10px -6px #aaa inset;
+}
+
+#submit {
+	margin: 0.5em 0;
+	padding: 0.7em 1.0em;
+	border: none;
+	border-radius: 1.3em;
+	font-family: "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	font-size: 0.8rem;
+	line-height: 1.5em;
+	cursor: pointer;
+}
+
+/*
+ * #prev-next
+ */
+#prev-next {
+	display: flex;
+	margin-bottom: 2.0rem;
+
+	flex-wrap: wrap;
+}
+
+#prev-next .prev-next-post {
+	flex: 1;
+	min-width: 200px;
+	margin: 10px;
+}
+
+#prev-next .prev-next-title {
+	margin: 1.0rem 0;
+	border-bottom: 3px solid #444;
+	text-transform: uppercase;
+}
+#prev-next .prev-next-title.next:before {
+	margin-right: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f190";
+}
+#prev-next .prev-next-title.prev {
+	text-align: right;
+}
+#prev-next .prev-next-title.prev:after {
+	margin-left: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f18e";
+}
+#prev-next .prev-next-title a {
+	color: #333;
+}
+
+#prev-next .post {
+	display: block;
+	height: 150px;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 5px 15px -10px rgba(0,0,0,0.8);
+	color: #444 !important;
+	font-size: 0.9rem;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	transition: box-shadow 0.2s linear;
+}
+#prev-next .post:hover {
+	box-shadow: 0 5px 15px -5px rgba(0,0,0,0.8);
+}
+
+#prev-next .post .thumbnail {
+	float: left;
+	width: auto;
+	max-height: 100%;
+	margin-right: 0.5rem;
+	vertical-align: middle;
+}
+
+#prev-next .post p {
+	margin: 0;
+}
+
+
+/*
+ * .pagination
+ */
+#main .pagination {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+#main .pagination > .page-numbers {
+	display: inline-block;
+	width: auto;
+	height: 1.5rem;
+	padding: 0 0.75rem;
+	border-radius: 0.75rem;
+	background-color: #fff;
+	line-height: 1.5rem;
+	box-sizing: border-box;
+}
+#main .pagination > a {
+	display: inline-block;
+	width: auto;
+	height: 1.5rem;
+	padding: 0 0.75rem;
+	border-radius: 0.75rem;
+	line-height: 1.5rem;
+	box-sizing: border-box;
+}
+#main .pagination > a:link {
+	text-decoration: none;
+}
