@@ -104,10 +104,6 @@ function add_enqueue_scripts() {
 		TEMPLATE_DIR_URI . '/js/CustomScrollbar/jquery.mCustomScrollbar.concat.min.js',
 		array('jquery'),
 		'3.1.13');
-	wp_register_script('flexslider',
-		TEMPLATE_DIR_URI . '/js/flexslider/jquery.flexslider-min.js',
-		array('jquery'),
-		'2.6.1');
 	wp_register_script('swiper',
 		TEMPLATE_DIR_URI . '/js/swiper/swiper.min.js',
 		array('jquery'),
@@ -151,9 +147,6 @@ function add_print_styles() {
 	wp_register_style('custom-scrollbar',
 		TEMPLATE_DIR_URI . '/js/CustomScrollbar/jquery.mCustomScrollbar.css',
 		array(), '3.1.13', 'all');
-	wp_register_style('flexslider',
-		TEMPLATE_DIR_URI . '/js/flexslider/flexslider.css',
-		array(), '2.6.1', 'all');
 	wp_register_style('swiper',
 		TEMPLATE_DIR_URI . '/js/swiper/swiper.min.css',
 		array(), '3.4.0', 'all');
@@ -169,7 +162,7 @@ function add_print_styles() {
 		array(), get_theme_version(), 'all');
 	wp_register_style('theme-common',
 		TEMPLATE_DIR_URI . '/css/common.css',
-		array('normalize', 'theme-color','custom-scrollbar', 'flexslider', 'streffect'),
+		array('normalize', 'theme-color','custom-scrollbar', 'streffect'),
 		get_theme_version(), 'all');
 
 	// 適用
